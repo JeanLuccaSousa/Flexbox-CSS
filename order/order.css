@@ -1,0 +1,39 @@
+.flex-container {
+    max-width: 350px;
+    border: 1px solid red;
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.item {
+    flex: 1;
+    background-color:brown;
+    font-size: 24px;
+    color: white;
+    text-align: center;
+    margin: 5px;
+}
+
+.o1 {
+    order: 1;
+}
+
+.o2 {
+    order: 2;
+}
+
+.o3 {
+    order: 3;
+}
+
+.o4 {
+    order: -4;
+}
+
+.o5 {
+    order: -2;
+}
+
+.direction {
+    flex-direction: column;
+}
